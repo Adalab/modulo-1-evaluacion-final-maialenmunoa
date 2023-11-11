@@ -3,19 +3,31 @@
     height: 624px;
     margin: 30px 15px 30px 0px;
     padding: 30px 15px 60px;
-    background-color: var(--ice-blue);
+    background-color:$ice-blue;
 
     &__title {
        width: 290px;
        height: 30px;
        margin: 0 0 45px;
+       $font-title: 'Roboto Slab', serif;
        font-size: 24px;
        line-height: 1.25;
        text-align: center;
-       color: var(--black);
+       color: $black;
     }
 
-    &__article1 {
+.article {
+    &__body {
+
+    }
+
+    &__title {
         
     }
+
+    &__text {
+        
+    }
+} 
+     
 }

@@ -1,17 +1,7 @@
 // ESTILOS GENERALES DE LA PAGINA
-
-// .central {
-//   min min-height: 100vh;
-//   padding: 0 1.5rem;
-//   display:flex
-//   flex-direction:column
-// }
-
-
-body {
-  // padding: 2rem;
-  // height: 100vh;
-  // background-image: url('../images/bg-adalab.png');
-  // background-color: $color-bg;
-  // font-family: $font-main;
+.page {
+  min-height: 100vh;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
