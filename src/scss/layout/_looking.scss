@@ -1,6 +1,6 @@
 .looking {
     width: 100vw;
-    hight: 376px;
+    height: 376px;
     margin: 30px 15px 30px 15px;
 
     &__tips {
@@ -9,11 +9,7 @@
         align-items: center;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 2.14;
-        letter-spacing: normal;
         color: var(--lightblue);
     }
 
@@ -24,10 +20,6 @@
         font-family: 'Roboto Slab', serif;
         font-size: 24px;
         font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.25;
-        letter-spacing: normal;
         color: var(--black);
     }
 
@@ -37,11 +29,7 @@
         align-items: center;
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 1.67;
-        letter-spacing: normal;
         margin-top: 15px;
         color: var(--greyish-brown);
     }
@@ -52,10 +40,7 @@
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 2.25;
-        letter-spacing: normal;
         text-align: center;
         color: var(--bright-orange);
     }
