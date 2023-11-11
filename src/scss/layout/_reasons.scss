@@ -18,15 +18,26 @@
 
 .article {
     &__body {
-
+        display: grid;
+        grid-template-columns: repeat(3, fr1);
+        line-height: 1.67;
     }
 
     &__title {
-        
+        font-family: $font-title;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 105px 30px;
+        line-height: 1.67;
+        text-align: center;
     }
 
     &__text {
-        
+        font-family: $font-normal;
+        font-size: 18px;
+        margin: 0 60px 63px;
+        line-height: 1.67;
+        text-align: center;
     }
 } 
      
