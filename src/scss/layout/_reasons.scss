@@ -4,11 +4,11 @@
     background-color:$ice-blue;
     display: grid;
     place-items: center;
-    position: relative;
+    // position: relative;
 
     &__title {
        width: 18.1rem;
-       height: 1.87rem;
+    //    height: 1.87rem;
        margin: 0 0 2.8rem;
        font-family: $font-title;
        font-size: 1.5rem;
@@ -35,8 +35,8 @@
         font-family: $font-normal;
         font-size: 1.12rem;
         margin: 0 3.75rem 2.8rem;
-        line-height: 1.87rem;
-        text-align: center;
+        // line-height: 1.87rem;
+        // text-align: center;
     }
 } 
      
@@ -48,10 +48,16 @@
 
     &-btn {
         width: 11.5rem;
-        height: 2.8rem;
+        // height: 2.8rem;
         border-radius: 1.4rem;
         background-color: $bright-orange;
         text-align: center;
+        
+        &:hover {
+            background-color: $lightblue;
+        }
     }
+    
 }
+
 }

@@ -9,20 +9,25 @@
         height: 2.8rem;
         border-radius: 1.4rem;
         background-color: $white;
-        z-index: 1;
+        // z-index: 1;
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;  
-        top: 0;  
+        // top: 0;  
         left: 50%;  
         transform: translate(-50%, -50%);
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        &:hover {
+            background-color: $lightblue;
+            transform: translate(-50%, -60%);
+        }
     }
 
     &__menu {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        // justify-content: center;
         align-items: center;
     }
 
@@ -43,7 +48,7 @@
     }
 
     &__copyright {
-        margin: 1.87rem 6.68rem 0 6.6rem;
+        // margin: 1.87rem 6.68rem 0 6.6rem;
         font-family: $font-normal;
         font-size: 0.87rem;
         line-height: 2.14;
@@ -51,7 +56,7 @@
     }
 
     &__components {
-        height: 1.87rem;
+        // height: 1.87rem;
         font-family: $font-normal;
         font-size: 0.87rem;
         line-height: 2.14;
