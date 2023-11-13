@@ -22,8 +22,8 @@
     }
 
     &__burger {
-        width: 44px;
-        height: 44px;
+        width: 2.75rem;
+        height: 2.75rem;
         background-color: #0271bc;
         z-index: 1;
         display: flex;
@@ -39,7 +39,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 10px;
+        gap: 0.62rem;
         z-index: 1; 
         position: relative; 
         color: $white; 
@@ -47,28 +47,28 @@
 
     &__article__title {
         font-family: $font-title;
-        font-size: 42px;
+        font-size: 2.6rem;
         font-weight: bold;
         line-height: 1.31;
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
         text-align: center;
     }
 
     &__article__text {
         font-family: $font-normal;
-        font-size: 16px;
-        margin-bottom: 45px;
+        font-size: 1rem;
+        margin-bottom: 2.81rem;
     }
 
     &__arrow {
-        width: 45px;
-        height: 45px;
-        border-radius: 22.5px;
+        width: 2.81rem;
+        height: 2.81rem;
+        border-radius: 1.4rem;
         background-color: $white;
         z-index: 1;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 53px;
+        margin-bottom: 3.31rem;
     }
 }

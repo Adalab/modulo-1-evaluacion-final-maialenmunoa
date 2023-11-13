@@ -1,14 +1,13 @@
 .looking {
     width: 100vw;
-    /*height: 376px;*/
-    padding: 30px 15px 45px 15px;
+    padding: 1.8rem 0.9rem 2.8rem;
 
     &__tips {
         display: flex;
         justify-content: start;
         align-items: center;
         font-family: 'Roboto', sans-serif;
-        font-size: 14px;
+        font-size: 0.8rem;
         line-height: 2.14;
         color: $lightblue;
     }
@@ -18,7 +17,7 @@
         justify-content: start;
         align-items: center;
         font-family: 'Roboto Slab', serif;
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: bold;
         color: $black;
     }
@@ -28,25 +27,25 @@
         justify-content: start;
         align-items: center;
         font-family: 'Roboto', sans-serif;
-        font-size: 18px;
+        font-size: 1.12rem;
         line-height: 1.67;
         color: $greyish-brown;
-        margin: 15px 0 30px;
+        margin: 0.9rem 0 1.8rem;
     }
 
     &__go {
         font-family: Roboto;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 500;
         color: $bright-orange;
-        line-height: 42px;
+        line-height: 2.6rem;
     }
 
     &__go-btn {
-        width: 76px;
-        height: 45px;
-        border-radius: 22.5px;
-        border: solid 2px $bright-orange;
+        width:4.7rem;
+        height: 2.8rem;
+        border-radius: 1.4rem;
+        border: solid 0.13rem $bright-orange;
         text-align: center;
     }
 }
