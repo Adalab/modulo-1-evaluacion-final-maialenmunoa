@@ -1,8 +1,53 @@
-// .page__footer {
-//   position: fixed;
-//   left: 0;
-//   bottom: 0;
-//   width: 100vw;
-//   padding: 1rem;
-//   color: $color-secondary;
-// }
+.footer {
+    width: 100vw;
+    height: 465px;
+    background-color: $dark-grey-blue;
+    position: relative;
+
+    &__arrow {
+        width: 45px;
+        height: 45px;
+        border-radius: 22.5px;
+        background-color: $white;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;  
+        top: 0;  
+        left: 50%;  
+        transform: translate(-50%, -50%);
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // &__links {
+    //     // text-align: center;
+    //     // text-transform: uppercase;
+    //     // font-family: $font-normal;
+    //     // font-size: 16px;
+    //     // line-height: 1.88;
+    //     // color: $white;
+    //     // width: 73px;
+    //     // height: 150px;
+    //     // margin: 0 108px 30px 109px;
+    // }
+
+    &__items {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $font-normal;
+        font-size: 16px;
+        line-height: 1.88;
+        color: $white;
+        width: 73px;
+        height: 150px;
+        margin: 0 108px 30px 109px;
+        margin-top: 60px;
+    }
+}
