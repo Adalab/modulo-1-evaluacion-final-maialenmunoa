@@ -5,6 +5,7 @@
     background-color:$ice-blue;
     display: grid;
     place-items: center;
+    position: relative;
 
     &__title {
        width: 290px;
@@ -40,27 +41,26 @@
     }
 } 
      
-.more-reasons {
+.more__reasons {
     width: 124px;
     height: 45px;
-    font-family: Roboto;
+    font-family: $font-normal;
     font-size: 20px;
     font-weight: 500;
     line-height: 2.25;
     text-align: center;
     color: $white;
+    position: absolute; 
+    bottom: 60px;
     
 
-    &__btn {
+    &-btn {
         width: 184px;
         height: 45px;
-        margin-bottom: 60px;
         padding: 0 29.5px 0 30.5px;
         border-radius: 22.5px;
         background-color: $bright-orange;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        place-content: center;
+        margin-bottom: 60px;
     }
 }
 }
