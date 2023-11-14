@@ -21,7 +21,7 @@
         @include desktop {
             font-size: 2rem;
             width: 80rem;
-            margin-top: 3.75rem;
+            margin-top: 1.87rem;
         }
     }
 
@@ -30,6 +30,12 @@
     @include tablet {
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
+    }
+
+    @include desktop {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 1.87rem;
     }
 
     &__body {
@@ -41,6 +47,10 @@
         @include tablet {
             font-size: 1.5rem; 
             gap: 0.87rem;
+        }
+
+        @include desktop {
+            width: 21.87rem;
         }
     }
 

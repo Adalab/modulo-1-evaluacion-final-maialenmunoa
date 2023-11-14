@@ -7,7 +7,14 @@
     }
 
     @include desktop {
-        padding: 60px 275px 60px 275px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__content {
+        @include desktop {
+            width: 45.62rem;
+        }
     }
 
     &__tips {
