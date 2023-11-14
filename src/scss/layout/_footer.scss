@@ -13,12 +13,10 @@
         height: 2.8rem;
         border-radius: 1.4rem;
         background-color: $white;
-        // z-index: 1;
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;  
-        // top: 0;  
         left: 50%;  
         transform: translate(-50%, -50%);
         transition: transform 0.3s ease, background-color 0.3s ease;
@@ -32,7 +30,6 @@
     &__menu {
         display: flex;
         flex-direction: column;
-        // justify-content: center;
         align-items: center;
 
         @include tablet {
@@ -84,26 +81,24 @@
             margin-left: -150px;
         }
     }
+    
+        &__copyright {
+            font-family: $font-normal;
+            font-size: 0.87rem;
+            line-height: 2.14;
+            color: $white;
+            text-align: center;
+        }
 
-    &__copyright {
-        // margin: 1.87rem 6.68rem 0 6.6rem;
-        font-family: $font-normal;
-        font-size: 0.87rem;
-        line-height: 2.14;
-        color: $white;
-        text-align: center;
-    }
-
-    &__components {
-        // height: 1.87rem;
-        font-family: $font-normal;
-        font-size: 0.87rem;
-        line-height: 2.14;
-        color: $white;
-        text-align: center;
-    }
-
-    &__heart {
-        color: $bright-orange;
-    }
+        &__components {
+            font-family: $font-normal;
+            font-size: 0.87rem;
+            line-height: 2.14;
+            color: $white;
+            text-align: center;
+        }
+        
+            &__heart {
+                color: $bright-orange;
+            }
 }
