@@ -53,12 +53,20 @@
         line-height: 1.31;
         margin-bottom: 0.6rem;
         text-align: center;
+
+        @include tablet {
+            font-size: 5rem;
+        }
     }
 
     &__article__text {
         font-family: $font-normal;
         font-size: 1rem;
         margin-bottom: 2.81rem;
+
+        @include tablet {
+            font-size: 1.5rem;
+        }
     }
 
     &__arrow {
