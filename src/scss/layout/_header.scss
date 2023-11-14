@@ -43,6 +43,7 @@
         z-index: 1; 
         // position: relative; 
         color: $white; 
+        
     }
 
     &__article__title {
@@ -57,6 +58,12 @@
         @include tablet {
             font-size: 5rem;
         }
+
+        @include desktop {
+            font-size: 6.25rem;
+            width: 730px;
+            height: 264px;
+        }
     }
 
     &__article__text {
@@ -65,6 +72,10 @@
         margin-bottom: 2.81rem;
 
         @include tablet {
+            font-size: 1.5rem;
+        }
+
+        @include desktop {
             font-size: 1.5rem;
         }
     }

@@ -6,6 +6,10 @@
         padding: 1.8rem 2.4rem 3.75rem;
     }
 
+    @include desktop {
+        padding: 3.75rem 17.18rem;
+    }
+
     &__tips {
         // display: flex;
         // justify-content: start;
@@ -17,6 +21,10 @@
 
         @include tablet {
             font-size: 0.87rem;
+        }
+
+        @include desktop {
+            font-size: 1rem;
         }
     }
 
@@ -31,7 +39,12 @@
 
         @include tablet {
             font-size: 1.6rem;
-            margin: 1.87rem 0;
+            margin-top: 0;
+        }
+
+        @include desktop {
+            font-size: 2rem;
+            margin-top: 0;
         }
     }
 
@@ -76,6 +89,11 @@
 
         @include tablet {
             width: 5.68rem;
+            height: 2.8rem;
+        }
+
+        @include desktop {
+            width: 10rem;
             height: 2.8rem;
         }
     }
