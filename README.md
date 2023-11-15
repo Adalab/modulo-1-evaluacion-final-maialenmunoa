@@ -1,6 +1,6 @@
-# Ejercicio de Evaluación Final ❤︎ Módulo 1
+# Ejercicio de Evaluación Final 💜 Módulo 1
 
-En este ejercicio pongo en práctica todos los conocimientos adquiridos a lo largo del Módulo 1 del Bootcamp de Programación Web de Adalab. En este ejercicio he maquetado una página web con diseño Mobile First y sus respectivas adaptaciones responsive a tamaño tablet y desktop. 
+En este ejercicio pongo en práctica todos los conocimientos adquiridos a lo largo del Módulo 1 del Bootcamp de Programación Web    de Adalab. En este ejercicio he maquetado una página web con diseño Mobile First y sus respectivas adaptaciones responsive a tamaño tablet y desktop. 
 
 Para realizar el ejercicio he utilizado la plantilla Starter Kit de Adalab, creada en node y vite.
 
